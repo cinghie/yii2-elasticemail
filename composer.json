@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "elastic-email/web-api-client": "*"
+        "yiisoft/yii2": "~2.0.14",
+        "elastic-email/web-api-client": "@dev"
     },
     "autoload": {
         "psr-4": {
