@@ -10,15 +10,20 @@
  * @version 0.1.0
  */
 
+namespace cinghie\elasticemail\components;
+
+use ElasticEmailApi\Account;
 use ElasticEmailClient\ApiConfiguration;
 use ElasticEmailClient\ElasticClient;
+use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 
 /**
- * Class AWS
+ * Class Elasticemail
  *
- * @property Sdk $sdk
+ * @property Account $account
+ * @property ElasticEmailClient $client
  *
  * @see https://api.elasticemail.com/public/help
  */
@@ -79,5 +84,13 @@ class Elasticemail extends Component
 	public function getClient()
 	{
 		return $this->_elasticemail;
+	}
+
+	/**
+	 * @return Account
+	 */
+	public function getAccount()
+	{
+		return $this->_elasticemail->Account->Load();
 	}
 }

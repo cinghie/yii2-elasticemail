@@ -32,13 +32,22 @@ Configuration
 Set on your configuration file, in modules section
 
 ```
+
+use cinghie\elasticemail\components\Elasticemail;
+
 'components' => [ 
     
     'elasticemail' => [
-        'class' => 'cinghie\elasticemail\components\Elasticemail',
+        'class' => Elasticemail::class,
         'apiUrl' => 'https://api.elasticemail.com/v2/',
         'apiKey' => 'YOUR_ELASTICEMAIL_API_KEY'
-    ]
+    ],
     
 ]
+```
+
+## Usage
+
+```
+\Yii::$app->elasticemail;
 ```
