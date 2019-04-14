@@ -29,7 +29,7 @@ or add
 Configuration
 -------------
 
-Set on your configuration file, in modules section
+Set on your configuration file
 
 ```
 
