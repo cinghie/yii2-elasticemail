@@ -7,7 +7,7 @@
  * @github https://github.com/cinghie/yii2-elesticemail
  * @license BSD-3-Clause
  * @package yii2-elesticemail
- * @version 0.1.0
+ * @version 0.1.2
  */
 
 namespace cinghie\elasticemail\components;
