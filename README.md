@@ -7,7 +7,11 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/cinghie/yii2-elasticemail.svg)](https://packagist.org/packages/cinghie/yii2-elasticemail)
 
 
-Yii2 Elasticemail extension to manage the Email Marketing Platform: https://www.elasticemail.com
+Yii2 Elasticemail extension to manage the Elastice Email Marketing Platform: 
+
+- Website: https://www.elasticemail.com
+- PHP SDK: https://github.com/ElasticEmail/ElasticEmail.WebApiClient-php
+- Example: https://github.com/ElasticEmail/ElasticEmail.WebApiClient-php/blob/master/examples/example.php
 
 Installation
 ------------
@@ -51,5 +55,12 @@ use cinghie\elasticemail\components\Elasticemail;
 ```
 \Yii::$app->elasticemail;
 \Yii::$app->elasticemail->getClient();
+\Yii::$app->elasticemail->getAccessTokens();
 \Yii::$app->elasticemail->getAccount();
+\Yii::$app->elasticemail->getCampaigns();
+\Yii::$app->elasticemail->getChannels();
+\Yii::$app->elasticemail->getContacts();
+\Yii::$app->elasticemail->getDomains();
+\Yii::$app->elasticemail->getEelists();
+\Yii::$app->elasticemail->getTemplates();
 ```
