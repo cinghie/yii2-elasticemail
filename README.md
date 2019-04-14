@@ -32,10 +32,12 @@ Configuration
 Set on your configuration file, in modules section
 
 ```
-'modules' => [ 
+'components' => [ 
     
     'elasticemail' => [
-        'class' => 'cinghie\elasticemail\Elasticemail'
+        'class' => 'cinghie\elasticemail\components\Elasticemail',
+        'apiUrl' => 'https://api.elasticemail.com/v2/',
+        'apiKey' => 'YOUR_ELASTICEMAIL_API_KEY'
     ]
     
 ]
