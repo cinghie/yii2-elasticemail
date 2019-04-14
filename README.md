@@ -10,6 +10,7 @@
 Yii2 Elasticemail extension to manage the Elastice Email Marketing Platform: 
 
 - Website: https://www.elasticemail.com
+- Documentation: https://api.elasticemail.com/public/help#start
 - PHP SDK: https://github.com/ElasticEmail/ElasticEmail.WebApiClient-php
 - Example: https://github.com/ElasticEmail/ElasticEmail.WebApiClient-php/blob/master/examples/example.php
 
