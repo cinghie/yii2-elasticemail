@@ -56,7 +56,7 @@ class Elasticemail extends Component
 	/**
 	 * @var ElasticEmailClient
 	 */
-	public $_elasticemail;
+	private $_elasticemail;
 
 	/**
 	 * Elasticemail constructor
