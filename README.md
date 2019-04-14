@@ -38,12 +38,12 @@ Set on your configuration file
 
 ```
 
-use cinghie\elasticemail\components\Elasticemail;
+use cinghie\elasticemail\components\Elasticemail as ElasticemailComponent;
 
 'components' => [ 
     
     'elasticemail' => [
-        'class' => Elasticemail::class,
+        'class' => ElasticemailComponent::class,
         'apiUrl' => 'https://api.elasticemail.com/v2/',
         'apiKey' => 'YOUR_ELASTICEMAIL_API_KEY'
     ],
