@@ -50,4 +50,6 @@ use cinghie\elasticemail\components\Elasticemail;
 
 ```
 \Yii::$app->elasticemail;
+\Yii::$app->elasticemail->getClient();
+\Yii::$app->elasticemail->getAccount();
 ```
